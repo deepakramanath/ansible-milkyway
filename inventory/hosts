@@ -1,4 +1,6 @@
-# Host file for Redhat lab
+# Host file for ansible-milkyway
+
+[all]
 
 [db_and_web_servers]
 db_and_web_server1
