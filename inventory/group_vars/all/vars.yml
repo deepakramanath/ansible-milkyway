@@ -1,0 +1,16 @@
+---
+hosts:
+  db_and_web_server1:
+    hostname: "ansible_target_1"
+    ip_address: "192.168.3.54"
+  db_and_web_server2:
+    hostname: "ansible_target_2"
+    ip_address: "192.168.3.57"
+
+
+
+
+
+
+
+...

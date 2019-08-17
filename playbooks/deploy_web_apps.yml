@@ -1,0 +1,10 @@
+---
+- name: Deploy web applications
+  hosts: db_and_web_servers
+  tasks:
+    - import_role:
+        name: deploy_db_web
+
+
+
+...

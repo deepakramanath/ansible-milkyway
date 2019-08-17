@@ -1,0 +1,8 @@
+---
+# tasks file for roles/ping_test
+#
+- name: Installing packages
+  include_tasks: ping_test.yml
+
+...
+
