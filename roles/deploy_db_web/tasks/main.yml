@@ -1,5 +1,10 @@
 ---
 # tasks file for roles/deploy_db_web
 
-- name: Deploy web application
-  import_tasks: deploy_web_app.yml
+- name: Install and configure mysql
+  import_tasks: configure_mqsql.yml
+  tags: configure_mysql
+
+- name: Install and configure flask
+  import_tasks: configure_flask.yml
+  tags: configure_flask

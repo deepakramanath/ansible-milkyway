@@ -1,4 +1,6 @@
 ---
+# Playbook to deploy a webserver
+
 - name: Deploy web applications
   hosts: db_and_web_servers
   tasks:

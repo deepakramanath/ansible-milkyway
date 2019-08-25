@@ -1,0 +1,27 @@
+---
+
+- name: Upgrade pip to latest
+  become: yes
+  pip:
+    name: pip
+    state: latest
+
+- name: Install flask dependencises
+  become: yes
+  pip:
+    name: "{{ item }}"
+    state: present
+  loop:
+    - flask
+    - flask-mysql
+
+- name: Copy app.py to /opt/app.py
+  become: yes
+  copy:
+    src: app.py
+    dest: /opt/app.py
+
+- name:
+  shell: FLASK_APP=/opt/app.py nohup flask run --host=0.0.0.0 &
+
+...
