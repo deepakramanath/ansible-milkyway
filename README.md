@@ -5,3 +5,4 @@ and in particular the Ansible Advanced course projects on Udemy.
 Roles
 -----
 - Webserver and MySQL database server deployment with minimal Flask configuration
+  - `playbooks/deploy_web_apps.yml`
