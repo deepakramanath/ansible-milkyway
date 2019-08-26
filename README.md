@@ -6,3 +6,14 @@ Roles
 -----
 - Webserver and MySQL database server deployment with minimal Flask configuration
   - `playbooks/deploy_web_apps.yml`
+
+
+Execution
+---------
+
+`ansible-playbook -i inventory/ playbooks/deploy_web_apps.yml -kK --ask-v -t "configure_flask" -l "db_and_web_server1" -vv`
+
+
+Vault
+-----
+- Vault key: `ansible`
