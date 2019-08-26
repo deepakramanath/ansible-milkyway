@@ -10,9 +10,9 @@ Roles
 
 Execution
 ---------
-
-`ansible-playbook -i inventory/ playbooks/deploy_web_apps.yml -kK --ask-v -t "configure_flask" -l "db_and_web_server1" -vv`
-
+```
+ansible-playbook -i inventory/ playbooks/deploy_web_apps.yml -kK --ask-v -t "configure_flask" -l "db_and_web_server1" -vv
+```
 
 Vault
 -----
