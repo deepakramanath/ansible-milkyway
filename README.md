@@ -1,6 +1,7 @@
 # ansible-milkyway
 This repository will host all Ansible projects that I will be working on
-and in particular the Ansible Advanced course projects on Udemy.
+and in particular the Ansible Advanced course projects on Udemy. Additionally,
+I will be adding other interesting Ansible projects.
 
 Roles
 -----
